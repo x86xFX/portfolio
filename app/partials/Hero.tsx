@@ -14,13 +14,14 @@ const Hero = () => (
       }
       description={
         <>
-          I&apos;m an{' '}<a className="text-cyan-400 hover:underline" href="https://developer.android.com">Android</a>{' '}
-          developer who loves building cool apps. I use
-          {' '}<a className="text-cyan-400 hover:underline" href="https://kotlinlang.org">Kotlin</a>{' '}
-          and{' '}<a className="text-cyan-400 hover:underline" href="https://developer.android.com/develop/ui/compose">Jetpack Compose</a>{' '}to make things happen.
-          Plus, I&apos;ve dived into the backend world with
-          {' '}<a className="text-cyan-400 hover:underline" href="https://ktor.io">Ktor</a>{' '}for APIs. In my free time,
-          I usually mess around with web stuff using{' '}<a className="text-cyan-400 hover:underline" href="https://nextjs.org">NextJs</a>,{' '}<a className="text-cyan-400 hover:underline" href="https://www.typescriptlang.org">Typescript</a>{' '}, and{' '}<a className="text-cyan-400 hover:underline" href="https://tailwindcss.com">Tailwind</a>{' '}. I&apos;m also into cybersecurity and all that good stuff.
+          As a skilled{' '}<a className="text-cyan-400 hover:underline" href="https://developer.android.com">Android</a>{' '}developer,
+          I specialize in delivering high-quality software solutions.
+          Proficient in{' '}<a className="text-cyan-400 hover:underline" href="https://kotlinlang.org">Kotlin</a>{' '}and{' '}<a className="text-cyan-400 hover:underline" href="https://developer.android.com/develop/ui/compose">Jetpack Compose</a>,
+          I create exceptional user experiences.
+          My development expertise extends to the backend, where I leverage{' '}<a className="text-cyan-400 hover:underline" href="https://ktor.io">Ktor</a>{' '}for building robust APIs.
+          With a passion for full-stack development, I utilize{' '}<a className="text-cyan-400 hover:underline" href="https://nextjs.org">NextJs</a>,{' '}<a className="text-cyan-400 hover:underline" href="https://tailwindcss.com">Tailwind</a>{' '}and{' '}<a className="text-cyan-400 hover:underline" href="https://www.typescriptlang.org">Typescript</a> to craft engaging web applications.
+          My technical skill set is further enhanced by experience with{' '}<a className="text-cyan-400 hover:underline" href="https://traefik.io">Reverse Proxies</a>,
+          {' '}<a className="text-cyan-400 hover:underline" href="https://www.docker.com">Docker</a>, and{' '}<a className="text-cyan-400 hover:underline" href="https://www.linux.org">Linux</a>{' '}servers.
         </>
       }
       avatar={
