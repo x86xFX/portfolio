@@ -17,7 +17,7 @@ const ProjectList = () => (
                 description="Unleash your personal soundtrack with Spark Music Player. This powerful music app lets you listen to your favorite songs, anytime, anywhere, without burning through data."
                 link="https://github.com/x86xFX/SparkMusicPlayer"
                 img={{
-                    src: '/assets/images/sound-waves.png',
+                    src: './assets/images/sound-waves.png',
                     alt: 'Spark Music Player',
                 }}
                 category={
@@ -35,7 +35,7 @@ const ProjectList = () => (
                 name="Spark Spotify Artist API"
                 description="HTTP server that fetch artist's profile details from Spotify API. Written in Kotlin using Ktor Framework."
                 link="https://github.com/x86xFX/SparkSpotifyArtistAPI"
-                img={{src: '/assets/images/api.png', alt: 'Project Fire'}}
+                img={{src: './assets/images/api.png', alt: 'Project Fire'}}
                 category={
                     <>
                         <Tags color={ColorTags.EMERALD}>API Development</Tags>

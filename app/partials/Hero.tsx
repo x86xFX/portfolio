@@ -27,7 +27,7 @@ const Hero = () => (
         <Image
           width={250}
           height={100}
-          src="/assets/images/avatar.svg"
+          src="./assets/images/avatar.svg"
           alt="Avatar image"
           loading="lazy"
         />
@@ -36,25 +36,25 @@ const Hero = () => (
         <>
           <a href="https://github.com/x86xFX">
             <HeroSocial
-                src="/assets/images/github-icon.png"
+                src="./assets/images/github-icon.png"
                 alt="Github icon"
             />
           </a>
           <a href="https://www.reddit.com/user/0xFF__">
             <HeroSocial
-                src="/assets/images/reddit-icon.png"
+                src="./assets/images/reddit-icon.png"
                 alt="Reddit icon"
             />
           </a>
           <a href="https://play.google.com/store/apps/developer?id=Theekshana+Nirmana">
             <HeroSocial
-                src="/assets/images/play-icon.png"
+                src="./assets/images/play-icon.png"
                 alt="Google Playstore icon"
             />
           </a>
           <a href="mailto:theek1010@gmail.com">
             <HeroSocial
-                src="/assets/images/gmail-icon.png"
+                src="./assets/images/gmail-icon.png"
                 alt="Gmail icon"
             />
           </a>
