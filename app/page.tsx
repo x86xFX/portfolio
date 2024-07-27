@@ -1,7 +1,11 @@
-import {redirect} from "next/navigation";
+import {Hero} from "@/app/partials/Hero";
+import {ProjectList} from "@/app/partials/ProjectList";
 
 export default function Home() {
   return (
-      redirect('https://shattereddisk.github.io/rickroll/rickroll.mp4')
+      <div>
+          <Hero/>
+          <ProjectList/>
+      </div>
   );
 }
