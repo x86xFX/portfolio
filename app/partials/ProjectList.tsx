@@ -25,6 +25,7 @@ const ProjectList = () => (
                         <Tags color={ColorTags.LIME}>Android Development</Tags>
                         <Tags color={ColorTags.VIOLET}>Kotlin</Tags>
                         <Tags color={ColorTags.SKY}>Jetpack Compose</Tags>
+                        <Tags color={ColorTags.SLATE}>Media 3</Tags>
                         <Tags color={ColorTags.ROSE}>Material 3</Tags>
                         <Tags color={ColorTags.GRAY}>Google Play</Tags>
                         <Tags color={ColorTags.ZINC}>Github</Tags>
@@ -41,6 +42,21 @@ const ProjectList = () => (
                         <Tags color={ColorTags.EMERALD}>API Development</Tags>
                         <Tags color={ColorTags.VIOLET}>Kotlin</Tags>
                         <Tags color={ColorTags.YELLOW}>Ktor</Tags>
+                        <Tags color={ColorTags.ZINC}>Github</Tags>
+                    </>
+                }
+            />
+            <Project
+                name="Notification Recorder App"
+                description="Real-time capture of incoming notifications using NotificationListenerService."
+                link="https://github.com/x86xFX/NotificationRecorder"
+                img={{src: './assets/images/notification.png', alt: 'Project Fire'}}
+                category={
+                    <>
+                        <Tags color={ColorTags.LIME}>Android Development</Tags>
+                        <Tags color={ColorTags.VIOLET}>Kotlin</Tags>
+                        <Tags color={ColorTags.SKY}>Jetpack Compose</Tags>
+                        <Tags color={ColorTags.ROSE}>Material 3</Tags>
                         <Tags color={ColorTags.ZINC}>Github</Tags>
                     </>
                 }
